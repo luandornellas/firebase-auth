@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+body{
+    margin: 0px;
+    font-family: Roboto;
+    background-color: #1B1D31;
+}
+
+.auth{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    
+}
+
+.auth-cont{
+
+    background-color: #24253C;
+    text-align: center;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.auth-cont input{
+
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 12px;
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 3px solid #E53854;
+    outline: none;
+    font-size: 16px;
+    padding: 5px 0px 5px 5px;
+    color: white;
+}
+
+.auth-cont input::placeholder{
+
+    color: white;
+    padding-left: 2px;
+
+}
+
+.auth-cont button{
+
+    border: none;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    background-color: #E53854;
+    color: white;
+    padding: 6px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 12px 0px;
+}
+
+.auth-cont a{
+
+    margin: 4px 0px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.auth-cont p a {
+
+    color: #E53854;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.auth hr{
+
+    width: 90%;
+    opacity: 0.3;
+
+}
+
+
+
+
+
+
+
+
